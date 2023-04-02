@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background-size: cover;
+    height: 100%;
+}
+header{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px;
+}
+nav{
+   height: 100%;
+}
+#logo{
+   height: 100%;
+}
+.menu{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.menu ul{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     color: white;
+}
+.menu li{
+margin: 0 25px;
+font-size: larger;
+color: white;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/-2;
+    
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 250px) 1fr;
+    background-image: url(Images/photo-of-man-wearing-sun-hat-3017918-e1614706072264.jpg.webp);
+    background-size: cover;
+    height: 50vh;
+}
+.banner p{
+    font-weight: 900;
+    font-size: large;
+}
+h1{
+    margin-left: 140px;
+    margin-bottom: 15px;
+    color: aqua;
+}
+.menu ul li a{
+    color: white;
+}
