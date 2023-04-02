@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background-size: cover;
+    height: 100%;
+}
+header{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px;
+}
+nav{
+   height: 100%;
+}
+#logo{
+   height: 100%;
+}
+.menu{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.menu ul{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     color: white;
+}
+.menu li{
+margin: 0 25px;
+font-size: larger;
+}
+.banner, .clothes{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/-2;
+    
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 250px) 1fr;
+    background-image: url(Images/photo-of-man-wearing-sun-hat-3017918-e1614706072264.jpg.webp);
+    background-size: cover;
+    height: 50vh;
+}
+.banner p{
+    color: rgb(85, 236, 26);
+    font-weight: 900;
+    font-size: large;
+}
+h1{
+    margin-left: 140px;
+    margin-bottom: 15px;
+    color: aqua;
+}
+.banner a{
+    padding: 5px 25px;    
+    background-color: blue;
+    margin: auto;
+    color: white;
+}
+.menu a{
+ color: aliceblue;
+}
+.items{
+    margin: 20px 0;
+    grid-column: 2/-2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.sale{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 250px) 1fr;
+    gap: 10px;
+}
+.dis{
+   grid-column: 2/-2;
+}
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.item img{
+    width: 100%;
+}
+.item a{
+    text-decoration: 0;
+    padding: 5px 10px;
+    background-color: rgb(240, 13, 13);
+    color: beige;
+}
+.cat:hover{
+background-color: rgb(224, 59, 92);
+color: rgb(0, 255, 0);
+}
